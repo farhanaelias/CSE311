@@ -1,0 +1,76 @@
+/*font-family: 'Raleway', sans-serif;*/
+
+
+
+
+.card{
+    background-color:#CC9544;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    max-height: 100vh;
+    padding:30px;
+
+}
+.card-header{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+
+}
+.card-header h2{
+    color: black;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.card-body{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+form{
+    text-align: left;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+form textarea{
+    width: 70%;
+    height:50%;
+    background: transparent;
+    border: none;
+    border: 1px solid #9999;
+    border-radius: 5px;
+    padding: 10px 10px;
+    /*padding-top: 10px;*/
+    /*padding-left: 5px;*/
+
+}
+.submit{
+    color: #fff;
+    width: initial;
+    /* padding: 0; */
+    padding: 10px 40px;
+    border-color: black;
+    transition: .4s all ease-in-out;
+}
+.submit:hover{
+    background-color:black;
+}
+.card-footer{
+    text-align: right;
+    color:rgb(30, 27, 24);
+
+}
